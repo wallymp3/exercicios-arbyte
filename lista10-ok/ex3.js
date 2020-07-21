@@ -10,4 +10,4 @@ var fs = require('fs');
 var carroSerializado = fs.readFileSync('data/carro.json');
 var carro = JSON.parse(carroSerializado);
 
-console.log("Seu automovel é um", carro.marca, "de modelo", carro.modelo, "de cor", carro.cor);
+console.log(carro);
